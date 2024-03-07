@@ -14,6 +14,7 @@ type useCountdownParams = {
     format?: string
     autoStart?: boolean
     onCompleted?: VoidFunction
+    reset?: VoidFunction
 }
 
 /**
